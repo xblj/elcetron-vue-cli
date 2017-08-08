@@ -19,5 +19,9 @@ module.exports={
             use:'babel-loader',
             exclude:/node_modules/
         }]
-    }
+    },
+    resolve:{
+        extensions:['.js','.json','.node']
+    },
+    target: 'electron-main'
 }
